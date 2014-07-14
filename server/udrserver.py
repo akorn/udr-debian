@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 #   Copyright 2012 Laboratory for Advanced Computing at the University of Chicago
 #
