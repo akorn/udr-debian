@@ -1,3 +1,9 @@
+udr (0.9.4-2~git~32c781eb) unstable; urgency=low
+
+  * Add udrserver.
+
+ -- Andras Korn <korn-deb@elan.rulez.org>  Mon, 18 Aug 2014 15:28:34 +0200
+
 udr (0.9.4-1~git~32c781eb) unstable; urgency=low
 
   * Initial release.

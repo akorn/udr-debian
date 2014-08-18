@@ -11,8 +11,12 @@ Vcs-Browser: https://github.com/akorn/udr-debian
 Package: udr
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: python
 Description: a wrapper around rsync that enables rsync to use UDT
  This wrapper enables rsync to transfer files over UDT (a reliable, UDP
  based transport protocol), which will often be a lot faster than TCP.
+ .
+ Python is needed to run udrserver; without it, udr must open an SSH
+ connection from the client to the server to orchestrate the transfer.
  .
  Also see http://udt.sourceforge.net/
