@@ -1,0 +1,2 @@
+ * Properly ship contents of server/
+ * Build using libudt-dev instead of what upstream does (include udt sources)

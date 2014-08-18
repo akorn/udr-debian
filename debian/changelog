@@ -1,5 +1,5 @@
-udr (0.9.4-1) unstable; urgency=low
+udr (0.9.4-1~git~32c781eb) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release.
 
  -- Andras Korn <korn-deb@elan.rulez.org>  Mon, 14 Jul 2014 15:07:30 +0200

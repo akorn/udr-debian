@@ -1,15 +1,18 @@
 Source: udr
-Section: unknown
-Priority: optional
+Section: net
+Priority: extra
 Maintainer: Andras Korn <korn-deb@elan.rulez.org>
 Build-Depends: cdbs, debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/udr.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/udr.git;a=summary
+Homepage: https://github.com/LabAdvComp/UDR
+Vcs-Git: https://github.com/akorn/udr-debian.git
+Vcs-Browser: https://github.com/akorn/udr-debian
 
 Package: udr
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: a wrapper around rsync that enables rsync to use UDT
+ This wrapper enables rsync to transfer files over UDT (a reliable, UDP
+ based transport protocol), which will often be a lot faster than TCP.
+ .
+ Also see http://udt.sourceforge.net/
