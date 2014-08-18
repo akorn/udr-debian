@@ -8,5 +8,5 @@ $(foreach TGT, $(TARGETS), $(patsubst %, %.$(TGT), $(DIRS))):
 	$(MAKE) -C $(subst ., , $@)
 	
 install: all
-	mkdir -p $DESTDIR/bin
-	cp -a src/udr $DESTDIR/bin
+	mkdir -p $(DESTDIR)/bin
+	cp -a src/udr $(DESTDIR)/bin
