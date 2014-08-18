@@ -1,5 +1,3 @@
 LICENSE.txt
 README.md
-server/daemon.py
 server/udrd.conf.example
-server/udrserver.py
